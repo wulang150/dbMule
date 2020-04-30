@@ -1,0 +1,16 @@
+PODS:
+  - dbMule (0.1.0)
+
+DEPENDENCIES:
+  - dbMule (from `../`)
+
+EXTERNAL SOURCES:
+  dbMule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dbMule: 31693ef93afb7071fc3fac14c72c0c20c4905607
+
+PODFILE CHECKSUM: cb6c470500b87eda07fee2cdc67d2e3cabc97350
+
+COCOAPODS: 1.8.4
