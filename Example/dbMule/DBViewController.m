@@ -7,6 +7,7 @@
 //
 
 #import "DBViewController.h"
+#import "dbMuleManager.h"
 
 @interface DBViewController ()
 
@@ -18,12 +19,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"mainView";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
 }
 
 @end

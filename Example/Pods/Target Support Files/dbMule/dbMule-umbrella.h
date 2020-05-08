@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MainViewController.h"
 
 FOUNDATION_EXPORT double dbMuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char dbMuleVersionString[];
