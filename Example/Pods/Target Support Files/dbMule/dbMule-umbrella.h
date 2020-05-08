@@ -11,6 +11,7 @@
 #endif
 
 #import "dbMuleManager.h"
+#import "FuncManager.h"
 
 FOUNDATION_EXPORT double dbMuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char dbMuleVersionString[];
