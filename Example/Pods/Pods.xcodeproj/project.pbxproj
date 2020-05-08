@@ -63,6 +63,7 @@
 		7E95DA112E59A240923D9471283917AC /* Pods_dbMule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dbMule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A01CCC224653B340034FCE3 /* dbMuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbMuleManager.h; sourceTree = "<group>"; };
 		9A01CCC324653B340034FCE3 /* dbMuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbMuleManager.m; sourceTree = "<group>"; };
+		9A01CCC5246547E40034FCE3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6670A29E57203287FB0D5F55772A46 /* Pods-dbMule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dbMule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A3375902E784C6FC86B424ADE86BC847 /* Pods-dbMule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dbMule_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -129,6 +130,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9A01CCC4246547E40034FCE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A01CCC224653B340034FCE3 /* dbMuleManager.h */,
+				9A01CCC324653B340034FCE3 /* dbMuleManager.m */,
+				9A01CCC5246547E40034FCE3 /* .gitkeep */,
+			);
+			name = Classes;
+			path = dbMule/Classes;
+			sourceTree = "<group>";
+		};
 		9D51813AFBE7A483EF3038D4CDDC8F0B /* Pods-dbMule_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +168,6 @@
 		C70E806AD38B4368056FE731D011E28D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9A01CCC224653B340034FCE3 /* dbMuleManager.h */,
-				9A01CCC324653B340034FCE3 /* dbMuleManager.m */,
 				AE0AC43A8C0812FD59241E93F37E1F78 /* dbMule.podspec */,
 				B5AD1EF273712F3D0979B05262F778E8 /* LICENSE */,
 				6CA1CD42EA0579B39DD15EDB32631909 /* README.md */,
@@ -187,6 +197,7 @@
 		DBD65054EFE4B14AAA0F44397C1054A8 /* dbMule */ = {
 			isa = PBXGroup;
 			children = (
+				9A01CCC4246547E40034FCE3 /* Classes */,
 				C70E806AD38B4368056FE731D011E28D /* Pod */,
 				5805BFF4601F0AA45B0BE9794E639793 /* Support Files */,
 			);
