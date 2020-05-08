@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = dbMule;
+			productName = dbMule;
 		};
 /* End PBXAggregateTarget section */
 
@@ -51,20 +52,22 @@
 		34216FEA05B43129B421CCA0F7A96262 /* Pods-dbMule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dbMule_Tests-dummy.m"; sourceTree = "<group>"; };
 		357374456D91D458C24CA48346B3A13E /* Pods-dbMule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dbMule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3594ACD7BD238841A8588DDF8B6AA833 /* Pods-dbMule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dbMule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3598518E9B631145C3A299434FEB1A90 /* Pods_dbMule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dbMule_Example.framework; path = "Pods-dbMule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598518E9B631145C3A299434FEB1A90 /* Pods_dbMule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dbMule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		391B789E036999D4D27E901B858705DE /* Pods-dbMule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dbMule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		425F1B3A8A0BBBF84BEBAE92DE57D3F5 /* Pods-dbMule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dbMule_Tests.modulemap"; sourceTree = "<group>"; };
 		4B3F40AC6EF071E3AA18C22543D331BE /* Pods-dbMule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dbMule_Example-Info.plist"; sourceTree = "<group>"; };
 		4E7E72BE825516BE130FA1CBE3F47747 /* Pods-dbMule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dbMule_Example-dummy.m"; sourceTree = "<group>"; };
 		55A4744C98D756E57201F340BC7B7200 /* Pods-dbMule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dbMule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CA1CD42EA0579B39DD15EDB32631909 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6CA1CD42EA0579B39DD15EDB32631909 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7B931A051DCBB3CEFE3AADCAFEFC4DE1 /* Pods-dbMule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dbMule_Example-umbrella.h"; sourceTree = "<group>"; };
-		7E95DA112E59A240923D9471283917AC /* Pods_dbMule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dbMule_Tests.framework; path = "Pods-dbMule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E95DA112E59A240923D9471283917AC /* Pods_dbMule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dbMule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A01CCC024653A480034FCE3 /* dbMuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbMuleManager.m; sourceTree = "<group>"; };
+		9A01CCC124653A480034FCE3 /* dbMuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbMuleManager.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6670A29E57203287FB0D5F55772A46 /* Pods-dbMule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dbMule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A3375902E784C6FC86B424ADE86BC847 /* Pods-dbMule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dbMule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AE0AC43A8C0812FD59241E93F37E1F78 /* dbMule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = dbMule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5AD1EF273712F3D0979B05262F778E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AE0AC43A8C0812FD59241E93F37E1F78 /* dbMule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = dbMule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5AD1EF273712F3D0979B05262F778E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF9CE2CFEA10859D91945B580EAAF890 /* Pods-dbMule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dbMule_Example.modulemap"; sourceTree = "<group>"; };
 		D3F2F61A909D84A2D31ECE317245F09C /* Pods-dbMule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dbMule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F86B2BDB21E1F96C88ADC69E370520C7 /* Pods-dbMule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dbMule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 		DBD65054EFE4B14AAA0F44397C1054A8 /* dbMule */ = {
 			isa = PBXGroup;
 			children = (
+				9A01CCC124653A480034FCE3 /* dbMuleManager.h */,
+				9A01CCC024653A480034FCE3 /* dbMuleManager.m */,
 				C70E806AD38B4368056FE731D011E28D /* Pod */,
 				5805BFF4601F0AA45B0BE9794E639793 /* Support Files */,
 			);
@@ -467,8 +472,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
