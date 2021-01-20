@@ -13,5 +13,7 @@
 #import "FuncManager.h"
 
 @implementation FuncManager
-
+-(void)show{
+    NSLog(@"FuncManager-show");
+}
 @end

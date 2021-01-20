@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FuncManager : NSObject
 
+-(void)show;
 @end
 
 NS_ASSUME_NONNULL_END
