@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface dbMuleManager : NSObject
 
 - (void)show;
+- (void)doForMule;
 @end
 
 NS_ASSUME_NONNULL_END

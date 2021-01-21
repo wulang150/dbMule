@@ -17,4 +17,8 @@
 - (void)show{
     NSLog(@"this is dbMuleManager!!!");
 }
+
+- (void)doForMule{
+    
+}
 @end
