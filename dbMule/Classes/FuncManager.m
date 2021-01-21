@@ -16,4 +16,8 @@
 -(void)show{
     NSLog(@"FuncManager-show");
 }
+
+-(void)hello{
+    
+}
 @end
