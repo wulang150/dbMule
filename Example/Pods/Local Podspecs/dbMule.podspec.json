@@ -1,6 +1,6 @@
 {
   "name": "dbMule",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of dbMule.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wulang150/dbMule",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/wulang150/dbMule.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "dbMule/Classes/*"
+  "source_files": "dbMule/Classes/*",
+  "vendored_libraries": "dbMule/libx264.a"
 }

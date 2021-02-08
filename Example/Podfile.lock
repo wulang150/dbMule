@@ -1,5 +1,5 @@
 PODS:
-  - dbMule (0.1.2)
+  - dbMule (0.1.4)
 
 DEPENDENCIES:
   - dbMule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dbMule: f7dab62e7807287c7149e5156457ead4ffbc8cfc
+  dbMule: b51339f42a830e51a90d7aa512fc3c7a68babca5
 
 PODFILE CHECKSUM: cb6c470500b87eda07fee2cdc67d2e3cabc97350
 
