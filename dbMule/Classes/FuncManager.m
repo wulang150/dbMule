@@ -20,4 +20,8 @@
 -(void)hello{
     
 }
+
+-(void)testlib{
+    
+}
 @end
