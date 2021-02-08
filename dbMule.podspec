@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'dbMule/Classes/*'
   
+  s.vendored_libraries = "dbMule/libx264.a"
+  
   # s.resource_bundles = {
   #   'dbMule' => ['dbMule/Assets/*.png']
   # }
